@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/oskaars.github.io/HOOPERS/static/css/main.515c9f09.css",
+    "main.js": "/oskaars.github.io/HOOPERS/static/js/main.f708965c.js",
+    "static/js/453.eb869063.chunk.js": "/oskaars.github.io/HOOPERS/static/js/453.eb869063.chunk.js",
+    "index.html": "/oskaars.github.io/HOOPERS/index.html",
+    "main.515c9f09.css.map": "/oskaars.github.io/HOOPERS/static/css/main.515c9f09.css.map",
+    "main.f708965c.js.map": "/oskaars.github.io/HOOPERS/static/js/main.f708965c.js.map",
+    "453.eb869063.chunk.js.map": "/oskaars.github.io/HOOPERS/static/js/453.eb869063.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.515c9f09.css",
+    "static/js/main.f708965c.js"
+  ]
+}
