@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/oskaars.github.io/HOOPERS/static/css/main.515c9f09.css",
-    "main.js": "/oskaars.github.io/HOOPERS/static/js/main.f708965c.js",
-    "static/js/453.eb869063.chunk.js": "/oskaars.github.io/HOOPERS/static/js/453.eb869063.chunk.js",
-    "index.html": "/oskaars.github.io/HOOPERS/index.html",
-    "main.515c9f09.css.map": "/oskaars.github.io/HOOPERS/static/css/main.515c9f09.css.map",
-    "main.f708965c.js.map": "/oskaars.github.io/HOOPERS/static/js/main.f708965c.js.map",
-    "453.eb869063.chunk.js.map": "/oskaars.github.io/HOOPERS/static/js/453.eb869063.chunk.js.map"
+    "main.css": "/oskaars.github.io/hoopers/static/css/main.515c9f09.css",
+    "main.js": "/oskaars.github.io/hoopers/static/js/main.fa6dc326.js",
+    "static/js/453.eb869063.chunk.js": "/oskaars.github.io/hoopers/static/js/453.eb869063.chunk.js",
+    "index.html": "/oskaars.github.io/hoopers/index.html",
+    "main.515c9f09.css.map": "/oskaars.github.io/hoopers/static/css/main.515c9f09.css.map",
+    "main.fa6dc326.js.map": "/oskaars.github.io/hoopers/static/js/main.fa6dc326.js.map",
+    "453.eb869063.chunk.js.map": "/oskaars.github.io/hoopers/static/js/453.eb869063.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.515c9f09.css",
-    "static/js/main.f708965c.js"
+    "static/js/main.fa6dc326.js"
   ]
 }
