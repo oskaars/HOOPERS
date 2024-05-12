@@ -5,13 +5,12 @@ html{
   sans-serif;
   color: #2e2622;
 }
-.divl1{
-text-align: center;
-margin: 0 auto;
-}
 
+div{
+  border: 1px solid black;
+}
 button{
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight:600;
   color: #E66D10;
   background-color: #2e2622;
@@ -19,9 +18,46 @@ button{
   padding: 10px;
   cursor: pointer;
   transition: background-color 0.25s;
+  transition: box-shadow 0.25s;
   border: none;
 }
 button:hover{
   background-color: #E66D10;
   color: #2e2622;
+  box-shadow: 2px 2px 3px #9e5013;
 }
+
+
+
+
+
+
+.parent{
+  text-align: center;
+  
+
+}
+
+.title{
+  display: inline-block;
+  vertical-align:top;
+  margin-right:100%;
+}
+.login-box{
+  display: inline-block;
+  margin-left: 91%;
+}
+.navbar{
+  font-size: 1.5em;
+  text-align: right;
+  width: 500px;
+  display: block;
+}
+
+
+
+
+
+
+
+

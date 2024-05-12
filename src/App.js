@@ -9,13 +9,7 @@ function MyButton({ onClick, text }) {
   );
 }
 
-function Panel() {
-  return (
-    <div>
-      <p>tu bedzie caly html</p>
-    </div>
-  );
-}
+
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -28,20 +22,31 @@ function App() {
     setIsLoggedIn(false);
   }
 
-  let content;
+  let login;
+  let register
   if (isLoggedIn) {
-    content = <MyButton onClick={handleLogout} text="Wyloguj" />;
+    login = <MyButton onClick={handleLogout} text="Sign out" />;
   } else {
-    content = <MyButton onClick={handleLogin} text="Zaloguj" />;
+    login = <MyButton onClick={handleLogin} text="Sign in" /> ;
+
   }
 
   return (
-    <div className="divl1">
-      <h1>{isLoggedIn ? 'Zalogowany' : 'Wylogowany'} czarnuch </h1>
-      <div>
-        {content}
+    <div className="parent">
+      <div className='title'>
+      <h1>HOOPERS </h1>
       </div>
-      <Panel />
+      
+      <div className='login-box'>
+        {login} 
+        <button type="button" onClick="#">
+          Sign up
+        </button>
+      </div>
+
+      <div className='navBar'>
+        navbar
+      </div>
     </div>
   );
 }
