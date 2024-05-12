@@ -1,7 +1,7 @@
 {
   "name": "hoopers",
   "version": "0.1.0",
-  "homepage": "https:/oskaars.github.io/hoopers",
+  "homepage": "https://oskaars.github.io/hoopers",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
