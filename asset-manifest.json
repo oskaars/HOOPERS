@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hoopers/static/css/main.515c9f09.css",
-    "main.js": "/hoopers/static/js/main.1e4cb1df.js",
+    "main.css": "/hoopers/static/css/main.695d5ae0.css",
+    "main.js": "/hoopers/static/js/main.6a343642.js",
     "static/js/453.eb869063.chunk.js": "/hoopers/static/js/453.eb869063.chunk.js",
     "index.html": "/hoopers/index.html",
-    "main.515c9f09.css.map": "/hoopers/static/css/main.515c9f09.css.map",
-    "main.1e4cb1df.js.map": "/hoopers/static/js/main.1e4cb1df.js.map",
+    "main.695d5ae0.css.map": "/hoopers/static/css/main.695d5ae0.css.map",
+    "main.6a343642.js.map": "/hoopers/static/js/main.6a343642.js.map",
     "453.eb869063.chunk.js.map": "/hoopers/static/js/453.eb869063.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.515c9f09.css",
-    "static/js/main.1e4cb1df.js"
+    "static/css/main.695d5ae0.css",
+    "static/js/main.6a343642.js"
   ]
 }
