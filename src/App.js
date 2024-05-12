@@ -1,23 +1,47 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 
-function App() {
+function MyButton({ onClick, text }) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <button type="button" onClick={onClick}>
+      {text}
+    </button>
+  );
+}
+
+function Panel() {
+  return (
+    <div>
+      <p>tu bedzie caly html</p>
+    </div>
+  );
+}
+
+function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  function handleLogin() {
+    setIsLoggedIn(true);
+  }
+
+  function handleLogout() {
+    setIsLoggedIn(false);
+  }
+
+  let content;
+  if (isLoggedIn) {
+    content = <MyButton onClick={handleLogout} text="Wyloguj" />;
+  } else {
+    content = <MyButton onClick={handleLogin} text="Zaloguj" />;
+  }
+
+  return (
+    <div className="divl1">
+      <h1>{isLoggedIn ? 'Zalogowany' : 'Wylogowany'} czarnuch </h1>
+      <div>
+        {content}
+      </div>
+      <Panel />
     </div>
   );
 }
